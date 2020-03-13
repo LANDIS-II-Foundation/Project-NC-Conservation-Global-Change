@@ -1,0 +1,38 @@
+LandisData  Scenario
+
+Duration  80
+
+Species          "species_TM.txt"
+Ecoregions       "ecoregions_1.txt"
+EcoregionsMap    "Ecoregion100f.tif"
+
+CellLength  100 << meters, 100 x 100 m = 1 hectare
+
+
+>> NOTE:  This example assumes that you have downloaded and installed 
+>> the correpsonding extensions.  These extensions are currently packaged
+>> together as a package.
+
+
+>> Succession Extension     Initialization File
+>> --------------------     ------------------- 
+"NECN Succession"    		"./NECN_input_TM.txt"
+
+
+>> Disturbance Extensions   Initialization File
+>> ----------------------   -------------------
+"Biomass Harvest"	        "./BiomassHarvest.txt"
+"Base Hurricane"            "./BaseHurricane.txt"
+"Land Use Change"	        "./LandUse_Change.txt"
+>>   DisturbancesRandomOrder  yes  << optional parameter; default = no
+
+
+>> Other Extensions         Initialization File
+>> ----------------         -------------------
+>>   "Output Reclass"	    "reclass.output.txt"
+"Output Biomass Reclass"	"./output_biomass_reclass.txt"
+"Output Cohort Statistics"  "./output_cohort_stats.txt"
+
+
+>>RandomNumberSeed  4,357  << optional parameter; default = the seed is
+                         << randomly generated using the current time

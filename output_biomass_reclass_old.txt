@@ -1,0 +1,23 @@
+LandisData  "Output Biomass Reclass"
+
+Timestep  10
+
+
+ReclassMaps
+
+>> Map Name         Forest Type       Species
+>>----------       -------------     ---------
+  reclass1 ->      Longleaf          PinuPalu QuerLaev
+                   Conifer           PinuEchi PinuPalu
+				   Plantation        PinuTaed
+				   Mixed             LiquStyr PinuTaed 
+				   Hardwood          AcerRubr CornFlor
+				   			   
+				   
+  
+  
+  
+  
+
+
+MapFileNames  output/bio-{reclass-map-name}-{timestep}.img

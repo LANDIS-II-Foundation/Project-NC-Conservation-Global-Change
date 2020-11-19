@@ -13,6 +13,7 @@ People:
 - Zachary Robbins, North Carolina State University
 
 Thank you to our funders:
+
 <img src="./Images/secasc.jpg" width="60%" />
 <img src="./Images/SFI.jpg" height="50%" />
 <img src="./Images/ncstate.png" width="60%" />

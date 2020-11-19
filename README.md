@@ -5,9 +5,7 @@ Central North Carolina is an exceptionally active region for conservation. Conta
 
 A way to simulate the systematic, continuous, and dynamic implementation of conservation action that enables detailed performance assessment at the landscape scape is needed to inform conservation decision-making under uncertainty. Using a landscape change model, LANDIS-II, we have developed a new approach for testing conservation action effectiveness on a spatiotemporally dynamic landscape in central North Carolina across scenarios of climate and land use change. Our goal is to support effective and efficient conservation action under global change through rigorous in-silico assessment that illucidates the costs and benefits of management decisions at a scale relevant to practitioners.
 
-<img src="./Images/Black white and red inset.jpeg" width="60%" />
-Study area
-
+<img src="./Images/Black white and red inset.jpg" width="60%" />
 
 People:
 - Tina Mozelewski, North Carolina State University

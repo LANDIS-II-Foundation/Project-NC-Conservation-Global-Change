@@ -14,8 +14,11 @@ People:
 
 Thank you to our funders:
 - Southeast Climate Adaptation Science Center
+<img src="./Images/secasc.jpg" width="60%" />
 - Sustainable Forestry Initiative
+<img src="./Images/SFI.jpg" width="60%" />
 - North Carolina State University
+<img src="./Images/ncstate.jpg" width="60%" />
 
 Citations:
 1. Brockway, D.G., Outcalt, K.W., Tomczak, D.J., Johnson, E.E. (2005). Restoration of Longleaf Pine Ecosystems. Gen. Tech. Rep. GTR-SRS-83USDA For. Serv., Southern Res. Sta., Asheville, NC.

@@ -18,7 +18,7 @@ Thank you to our funders:
 - Sustainable Forestry Initiative
 <img src="./Images/SFI.jpg" width="60%" />
 - North Carolina State University
-<img src="./Images/ncstate.jpg" width="60%" />
+<img src="./Images/ncstate.png" width="60%" />
 
 Citations:
 1. Brockway, D.G., Outcalt, K.W., Tomczak, D.J., Johnson, E.E. (2005). Restoration of Longleaf Pine Ecosystems. Gen. Tech. Rep. GTR-SRS-83USDA For. Serv., Southern Res. Sta., Asheville, NC.

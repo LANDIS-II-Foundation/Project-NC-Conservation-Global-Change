@@ -8,12 +8,13 @@ A way to simulate the systematic, continuous, and dynamic implementation of cons
 <img src="./images/Sapssa.jpeg" width="60%" />
 Study area
 
+
 People:
 - Tina Mozelewski, North Carolina State University
 - Robert Scheller, North Carolina State University
 - Zachary Robbins, North Carolina State University
 
-Funding:
+Thank you to our funders:
 - Southeast Climate Adaptation Science Center
 - Sustainable Forestry Initiative
 - North Carolina State University

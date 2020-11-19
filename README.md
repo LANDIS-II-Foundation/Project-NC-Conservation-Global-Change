@@ -15,7 +15,7 @@ People:
 Thank you to our funders:
 
 <img src="./Images/secasc.jpg" width="20%" />
-<img src="./Images/SFI.jpg" width="10%" />
+<img src="./Images/SFI.jpg" width="20%" />
 <img src="./Images/ncstate.png" width="30%" />
 
 Citations:

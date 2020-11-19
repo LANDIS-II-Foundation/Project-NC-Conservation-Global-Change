@@ -13,11 +13,8 @@ People:
 - Zachary Robbins, North Carolina State University
 
 Thank you to our funders:
-* Southeast Climate Adaptation Science Center
 <img src="./Images/secasc.jpg" width="60%" />
-* Sustainable Forestry Initiative
 <img src="./Images/SFI.jpg" height="50%" />
-* North Carolina State University
 <img src="./Images/ncstate.png" width="60%" />
 
 Citations:

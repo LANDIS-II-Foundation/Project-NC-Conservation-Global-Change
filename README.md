@@ -14,9 +14,9 @@ People:
 
 Thank you to our funders:
 
-<img src="./Images/secasc.jpg" width="60%" />
-<img src="./Images/SFI.jpg" height="50%" />
-<img src="./Images/ncstate.png" width="60%" />
+<img src="./Images/secasc.jpg" width="20%" />
+<img src="./Images/SFI.jpg" height="20%" />
+<img src="./Images/ncstate.png" width="20%" />
 
 Citations:
 1. Brockway, D.G., Outcalt, K.W., Tomczak, D.J., Johnson, E.E. (2005). Restoration of Longleaf Pine Ecosystems. Gen. Tech. Rep. GTR-SRS-83USDA For. Serv., Southern Res. Sta., Asheville, NC.

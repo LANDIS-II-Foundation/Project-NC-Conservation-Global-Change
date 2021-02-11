@@ -1,0 +1,28 @@
+LandisData "Output Cohort Statistics"
+
+Timestep   10
+
+SpeciesAgeStats
+
+MapNames   output/cohort-stats/{species}-{statistic}-{timestep}.img
+
+MAX  PinuPalu QuerAlba PinuEchi PinuVirg AcerRubr
+AVG  PinuPalu QuerAlba PinuEchi PinuVirg AcerRubr
+
+SiteAgeStats
+
+MapNames   output/cohort-stats/AGE-{statistic}-{timestep}.img
+
+MAX     << max age on site
+AVG     << average age across all species on site
+MED     << median age across all species on site
+SD      << standard dev age for all spp on site
+RICH    << count of cohorts
+EVEN    << eveness
+
+
+SiteSpeciesStats
+
+MapNames   output/cohort-stats/SPP-{statistic}-{timestep}.img
+
+RICH    << count of species

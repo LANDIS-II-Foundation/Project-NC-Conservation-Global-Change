@@ -6,16 +6,20 @@ SpeciesAgeStats
 
 MapNames   output/cohort-stats/{species}-{statistic}-{timestep}.img
 
-MAX  PinuPalu
+MAX  PinuPalu QuerAlba PinuEchi PinuVirg AcerRubr
+AVG  PinuPalu QuerAlba PinuEchi PinuVirg AcerRubr
 
 SiteAgeStats
 
 MapNames   output/cohort-stats/AGE-{statistic}-{timestep}.img
 
+MAX     << max age on site
+AVG     << average age across all species on site
 MED     << median age across all species on site
 SD      << standard dev age for all spp on site
 RICH    << count of cohorts
 EVEN    << eveness
+
 
 SiteSpeciesStats
 

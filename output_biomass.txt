@@ -1,16 +1,16 @@
-LandisData  "Output Biomass-by-Age"
+LandisData  "Output Biomass"
 
 
 Timestep  5
 
-MapNames  biomass/{species}-{ageclass}-{timestep}.img
+MakeTable yes
 
-Species    all ageclass(>0)
+Species    all
 
-
+MapNames output/biomass/bio-{species}-{timestep}.img
 
 
 DeadPools both
 	  
 
-MapNames  biomass/{pool}-{timestep}.img
+MapNames  output/biomass/{pool}-{timestep}.img

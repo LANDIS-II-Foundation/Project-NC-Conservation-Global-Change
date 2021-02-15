@@ -1,0 +1,15 @@
+LandisData "Climate Config"				
+		
+ClimateTimeSeries			Monthly_SequencedYears
+ClimateFile				    NorESM1-M_r1.csv
+ClimateFileFormat			Monthly_Temp-K_Precip-mmMonth
+
+SpinUpClimateTimeSeries			Monthly_SequencedYears
+SpinUpClimateFile			    NorESM1-M_r1.csv
+SpinUpClimateFileFormat			Monthly_Temp-K_Precip-mmMonth
+
+
+UsingFireClimate			no
+RelativeHumiditySlopeAdjust             77.68
+SpringStart				    30
+WinterStart 				320

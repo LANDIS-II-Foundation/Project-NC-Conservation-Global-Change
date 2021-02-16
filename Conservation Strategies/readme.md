@@ -1,1 +1,1 @@
-Conservation strategy info
+Information on the conservation strategies simulated.

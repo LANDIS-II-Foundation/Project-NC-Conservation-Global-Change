@@ -9,7 +9,6 @@ styraciflua	(sweetgum), Acer rubrum	(red maple), Liriodendron tulipifera (yellow
 dogwood), Oxydendrum arboreum	(sourwood), Pinus virginiana (virginia pine), Pinus palustris	(longleaf pine), and Quercus laevis	(turkey oak).
 
 
-<img src="./Images/study extent FIA species.PNG" width="60%" />
 
 Species listed here: FIA top 20 species.xlsx
 To find input values for each of these species in the species input file, I consulted the literature, past LANDIS-II projects, FEIS, and the silvics manual along with 

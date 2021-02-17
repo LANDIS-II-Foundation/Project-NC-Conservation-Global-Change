@@ -5,7 +5,7 @@ and land management agencies globally (Murdoch et al. 2007, Burkey 1989, Hjort e
 with intended biodiversity benefits when evaluating conservation action; Cluster, emphasizing protected area development clustered around already established conservation cores;
 Geodiversity, emphasizing the acquisition of land with the highest geodiversity characteristics; and Opportunistic, representing the ad hoc nature of land acquisition that can
 sometimes occur when a parcel becomes unexpectedly available for conservation acqusition. You can read more into the development of these strategies and their integration
-into the LANDIS-II modeling framework in the document Conservation scenarios.doc.
+into the LANDIS-II modeling framework in the document Conservation scenarios.docx.
 
 Prior to testing our strategies, we conducted a sensitivity test examining what area of land conservation was necessary to demonstrate differences in landscape connectivity. 
 Based on this sensitivity test, we choose to conserve roughly one percent of the total landscape area at each 5-year time step, resulting in approximately 17 percent of 

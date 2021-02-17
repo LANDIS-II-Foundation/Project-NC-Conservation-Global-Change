@@ -7,3 +7,5 @@ the Ft. Bragg landscape. From there, I extended it out west to include the Uwhar
 and piedmont ecoregions within my study extent. The edges of the study extent were determined by a desire to avoid urban cores and the knowledge that roads act as good fire 
 breaks, an important point of note on a landscape so dependent on fire. The study extent is bounded by major roads and Raleigh, Greensboro, Charlotte, and the NC/SC state border.
 The study extent was designated by using Google maps and dragging cursor around pieces of the landscape, looking for major roads and trying to leave out largely urban areas.
+
+<img src="./study extent close up.PNG" width="90%" />

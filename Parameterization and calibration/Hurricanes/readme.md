@@ -9,3 +9,5 @@ species: Cornus florida, Oxydendrum arboreum, and Pinus virginiana. To reflect t
 probabilities and mortality probabilities increased in accordance with unpublished work by Schrum and others.
 
 
+Schrum, P., Scheller, R.M., Duveneck, M.J., Lucash, M.S. (2020). Base-Hurricane: A new extension for the Landis-II forest landscape model. Environmental Modelling & Software,
+133, 104833, https://doi.org/10.1016/j.envsoft.2020.104833.

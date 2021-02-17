@@ -1,3 +1,5 @@
+### Conservation Strategies
+
 We simulated four protected area network development strategies derived from four conservation theories described in the literature and enacted by conservation 
 and land management agencies globally (Murdoch et al. 2007, Burkey 1989, Hjort et al. 2015). These strategies are: Economic, emphasizing that economic costs should be balanced
 with intended biodiversity benefits when evaluating conservation action; Cluster, emphasizing protected area development clustered around already established conservation cores;

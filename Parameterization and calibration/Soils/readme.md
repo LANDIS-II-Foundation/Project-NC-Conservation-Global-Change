@@ -45,6 +45,12 @@ Each nitrogen map is then created by multiplying the carbon in the respective po
 * SOM3N=.118 
 A minimum value of 2.0 was set for the nitrogen value to avoid complete lack of N in some stands with low soil carbon.
 
+These are the resulting maps:
+<img src="./SurfCN.PNG" width="90%" />
+<img src="./SOM1CN.PNG" width="90%" />
+<img src="./SOM2CN.PNG" width="90%" />
+<img src="./SOM3CN.PNG" width="90%" />
+
 #### Soil characteristics
 Soil maps for feild capacity, wilting point, soil depth, soil drainage, flood frequency, and sand and clay percentages were created using the gssurgo and ssurgo database. 
 ggsurgo is gridded to a 10m resolution which was aggreggated to 50m for processing.

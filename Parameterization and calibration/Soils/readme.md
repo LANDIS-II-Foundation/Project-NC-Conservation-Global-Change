@@ -33,16 +33,16 @@ To create soil carbon and nitrogen maps for each soil pool, I reprojected and cr
 estimated ratios of carbon in each soil pool (surface, fast, medium and slow) as well as C:N ratios were used to create soil maps.
 
 As a fraction of total carbon, each carbon pool is:
-SOM1surfC=.01 
-SOM1soilC=.02 
-SOM2C=.59 
-SOM3C=.38 
+* SOM1surfC=.01 
+* SOM1soilC=.02 
+* SOM2C=.59 
+* SOM3C=.38 
 
 Each nitrogen map is then created by multiplying the carbon in the respective pool by:
-SOM1surfN=.1 
-SOM1soilN=.1 
-SOM2N=.04 
-SOM3N=.118 
+* SOM1surfN=.1 
+* SOM1soilN=.1 
+* SOM2N=.04 
+* SOM3N=.118 
 A minimum value of 2.0 was set for the nitrogen value to avoid complete lack of N in some stands with low soil carbon.
 
 #### Soil characteristics
@@ -54,13 +54,13 @@ the chorizon,component,conmonth, and corestriction tables.
 
 Fields used key:
 
-Draiange = component:drainagecl
-Flood Frequency= conmonth:Flodfreqdcl
-Wiltpoint= chorizon:wfifteenbar:r
-Feild capacity= wthirdbar:r
-Sand Percentage= chorizon:sandtotal_R:RV
-Clay Percentage= chorizon:claytotal_R:RV
-Soil depth= corestriction:resdept_r
+* Drainage = component:drainagecl
+* Flood Frequency= conmonth:Flodfreqdcl
+* Wiltpoint= chorizon:wfifteenbar:r
+* Feild capacity= wthirdbar:r
+* Sand Percentage= chorizon:sandtotal_R:RV
+* Clay Percentage= chorizon:claytotal_R:RV
+* Soil depth= corestriction:resdept_r
 
 Sources: 
 Parton, W. 2013. CENTURY Soil Organic Matter Model Environment. Technical Documentation. Agroecosystem Version 3.0. USDA-ARS, Forest Collins, CO.

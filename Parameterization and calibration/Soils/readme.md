@@ -12,10 +12,8 @@ I sincerely thank them both for their contributions.
 
 NECN requires the following maps:
 
-Soil Depth 1
-Soil Drain 1
-Base Flow to Streams 4
-Storm Flow to Streams 4
+* Soil Depth 1
+* Soil Drain 1
 Field Capacity 1
 Wilting Point 1
 Percent Sand 1
@@ -24,6 +22,8 @@ Soil Maps of carbon pools 2
 Soil Maps of nitrogen pools 2
 Dead Wood on the Surface 3
 Dead Wood of Coarse Roots 3
+Base Flow to Streams 4
+Storm Flow to Streams 4
 
 Map 1s are derived from the USGS ggsurgo database. Map 2s are derived from total soil carbon maps (West 2014). Map 3s are interpolated from FIA data. 
 BaseFlow and Storm Flow (Map 4s) are treated as stationary variables in this simulation.

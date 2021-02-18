@@ -73,6 +73,8 @@ Drainage categories:
 *	Other= 1
 
 
+
+
 #### Dead wood and roots
 To calculate dead wood, each FIA plot in the study area within the last survey cycle was used. Using the total carbon down dead from the FIA data, we interpolated it to the 
 whole study area. We assumed that dead coarse roots make up approximately a third of that value.

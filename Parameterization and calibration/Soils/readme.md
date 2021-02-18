@@ -28,28 +28,6 @@ NECN requires the following maps:
 Map 1s are derived from the USGS ggsurgo database. Map 2s are derived from total soil carbon maps (West 2014). Map 3s are interpolated from FIA data. 
 BaseFlow and Storm Flow (Map 4s) are treated as stationary variables in this simulation.
 
-#### Soil carbon and nitrogen
-To create soil carbon and nitrogen maps for each soil pool, I reprojected and cropped West's (2014) total soil carbon map to the study extent. Based on Melissa Lucash's work, 
-estimated ratios of carbon in each soil pool (surface, fast, medium and slow) as well as C:N ratios were used to create soil maps.
-
-As a fraction of total carbon, each carbon pool is:
-* SOM1surfC=.01 
-* SOM1soilC=.02 
-* SOM2C=.59 
-* SOM3C=.38 
-
-Each nitrogen map is then created by multiplying the carbon in the respective pool by:
-* SOM1surfN=.1 
-* SOM1soilN=.1 
-* SOM2N=.04 
-* SOM3N=.118 
-A minimum value of 2.0 was set for the nitrogen value to avoid complete lack of N in some stands with low soil carbon.
-
-These are the resulting maps:
-<img src="./SurfCN.PNG" width="90%" />
-<img src="./SOM1CN.PNG" width="90%" />
-<img src="./SOM2CN.PNG" width="90%" />
-<img src="./SOM3CN.PNG" width="90%" />
 
 #### Soil characteristics
 Soil maps for feild capacity, wilting point, soil depth, soil drainage, flood frequency, and sand and clay percentages were created using the gssurgo and ssurgo database. 
@@ -84,12 +62,37 @@ These are the resulting maps:
 <img src="./wilt and field.PNG" width="90%" />
 
 
+#### Soil carbon and nitrogen
+To create soil carbon and nitrogen maps for each soil pool, I reprojected and cropped West's (2014) total soil carbon map to the study extent. Based on Melissa Lucash's work, 
+estimated ratios of carbon in each soil pool (surface, fast, medium and slow) as well as C:N ratios were used to create soil maps.
+
+As a fraction of total carbon, each carbon pool is:
+* SOM1surfC=.01 
+* SOM1soilC=.02 
+* SOM2C=.59 
+* SOM3C=.38 
+
+Each nitrogen map is then created by multiplying the carbon in the respective pool by:
+* SOM1surfN=.1 
+* SOM1soilN=.1 
+* SOM2N=.04 
+* SOM3N=.118 
+A minimum value of 2.0 was set for the nitrogen value to avoid complete lack of N in some stands with low soil carbon.
+
+These are the resulting maps:
+<img src="./SurfCN.PNG" width="90%" />
+<img src="./SOM1CN.PNG" width="90%" />
+<img src="./SOM2CN.PNG" width="90%" />
+<img src="./SOM3CN.PNG" width="90%" />
+
+
 #### Dead wood and roots
 To calculate dead wood, each FIA plot in the study area within the last survey cycle was used. Using the total carbon down dead from the FIA data, we interpolated it to the 
 whole study area. We assumed that dead coarse roots make up approximately a third of that value.
 
 This is the deadwood map that resulted:
 <img src="./Deadwood.png" width="80%" />
+
 
 #### Notes on data formatting
 Some additional steps were necessary to prepare the maps for LANDIS-II use.

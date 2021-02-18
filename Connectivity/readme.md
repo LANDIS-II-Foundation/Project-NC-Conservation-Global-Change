@@ -76,6 +76,7 @@ connectivity may be altered by habitat area as a proxy for habitat fragmentation
 for each conservation strategy/species type combination.
 
 Connectivity metrics table:
+
 <img src="./Connectivity metrics.PNG" width="80%" />
 
 

@@ -46,9 +46,9 @@ which is ~5% of the landscape (ft. Bragg is 163,000 acres = 65964 hectares). Jus
 containment area or populated.
 
 A small amount of the landscape, 2032 hectares, is listed as other private land ownership, usually referring to conservation or natural resource agency possession. Of this land, 
-about half of it is in the sandhills. Prescribed burns in this area are usually done on a smaller scale, burns at the size of 5-150 acres usually. I took an educated guess (need 
-to talk to Liz Kalies with TNC about this) that ~85 hectares of this land is burned any given year, which is 4% of the total other private land. 255 ha per time step. I adjusted 
-the Harvest Area percentages until the outputs reflected actual harvesting regimes on the landscape (use myharvestcomparison.R script ; also Harvest_targets.csv file).
+about half of it is in the sandhills. Prescribed burns in this area are usually done on a smaller scale, burns at the size of 5-150 acres usually. I took an educated guess after 
+talking with Liz Kallies at TNC that ~85 hectares of this land is burned any given year, which is 4% of the total other private land. 255 ha per time step. I adjusted the 
+Harvest Area percentages until the outputs reflected actual harvesting regimes on the landscape (use myharvestcomparison.R script ; also Harvest_targets.csv file).
 
 #### Management prescriptions
 For the loblolly clearcut, longleaf thin/burn, longleaf restoration, and hardwood restoration prescriptions, stands were ranked on an index of economic value. With economic 

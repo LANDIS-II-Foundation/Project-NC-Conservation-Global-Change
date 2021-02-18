@@ -20,16 +20,37 @@ from Rajan Parajuli- NC-wide land and forest holdings data from 2017-2018 from N
 
 Comparison of Rajan's stand data and my simulated stand sizes
 
-<img src="./Stands.PNG" width="70%" />
+<img src="./Stands.PNG" width="60%" />
 
-#### Management prescriptions
-The Biomass Harvest extension selects and removes tree species biomass based on specific management prescriptions that specify the timing of harvest, the species harvested, and 
-the amount of biomass removed (Gustafson et al. 2000). These management prescriptions allow the user to specify how a stand is harvested (e.g., thinning or clearcut), how much 
-of each species-age cohort is harvested, and whether the stand is replanted after harvesting, among other prescription criteria. Maps of management areas and forest stands 
-determine where harvesting occurs on the landscape. Stands are ranked based on user-defined characteristics (for example, based on the economic values of the species-age cohorts 
-in that stand) and selected for harvest according to their rank. The amount of the landscape harvested in each management area/prescription combination for each time step is 
+#### Management in the study area
+Management prescriptions allow the user to specify how a stand is harvested (e.g., thinning or clearcut), how much of each species-age cohort is harvested, and whether the stand 
+is replanted after harvesting, among other prescription criteria. The amount of the landscape harvested in each management area/prescription combination for each time step is 
 determined by the rotation period (Gustafson et al. 2000). 
 
+We originally decided on two harvest prescriptions: (1) loblolly pine clearcutting for family and private industrial forests and (2) hardwood thin and a cut to simulate 
+prescribed burning in the longleaf pine forests of Ft. Bragg and other private (conservation and natural resource agency) lands. Additionally I created a prescription to 
+simulate mixed forest thinning that occasionally happens on private land (3rd prescription). I used eVALIDator data (https://apps.fs.usda.gov/Evalidator/evalidator.jsp organized 
+by county, land owner, and species group for a rough baseline of  how much loblolly pine was being harvested on my landscape each year from 2004-2014. I then assumed that most 
+of the 32,500 hectares of private industrial forest are being harvested on a 30 year rotation so made my target 1080 hectares per year, 3240 hectares per harvest time step.
+
+Family private loblolly harvesting, and forestry practices in general, have been the hardest to nail down. I emailed Mark Megalos of the Forestry Cooperative Extension to get 
+his perspective on how much family forest land was actively harvested and he, in turn, sent the email out to 5 or 6 of his colleagues. The responses came back any from 20%-90% 
+of family forests are actively harvested. After this response I decided to break down private family forestry into two categories:
+Of 105173 private family hectares, did a rough calculation to determine that 2/5 of them are loblolly plantation or some pine mix and 3/5 are mixed forest.
+Off the 2/5 that are loblolly or pine mix (42,069 ha), assumed that 75-85% is being harvested which falls within the estimates solicited from Mark Megalos and friends = ~33,000-
+34,000 = 1,133 ha per year = 3,400 per time step. Of the 3/5 of mixed forest (63,103 ha) assumed 5% thinned annually = 3,155 ha per year = 9,465 ha harvested per time step
+
+In working with Ft. Bragg for his Dept. of Defense project, Rob knew that roughly 2500 acres were being prescribed burned on this landscape every year. My harvest time step is 
+set to 3 years to mimic the approximate prescribed burn interval that Ft. Bragg usually adheres to. 2500 acres = 1011 hectares * 3 years = 3033 hectares per harvest time step 
+which is ~5% of the landscape (ft. Bragg is 163,000 acres = 65964 hectares). Just over 1.5% of Ft. Bragg is harvested every year but keep in mind, a good chunk of Ft. Bragg is 
+containment area or populated.
+
+A small amount of the landscape, 2032 hectares, is listed as other private land ownership, usually referring to conservation or natural resource agency possession. Of this land, 
+about half of it is in the sandhills. Prescribed burns in this area are usually done on a smaller scale, burns at the size of 5-150 acres usually. I took an educated guess (need 
+to talk to Liz Kalies with TNC about this) that ~85 hectares of this land is burned any given year, which is 4% of the total other private land. 255 ha per time step. I adjusted 
+the Harvest Area percentages until the outputs reflected actual harvesting regimes on the landscape (use myharvestcomparison.R script ; also Harvest_targets.csv file).
+
+#### Management prescriptions
 For the loblolly clearcut, longleaf thin/burn, longleaf restoration, and hardwood restoration prescriptions, stands were ranked on an index of economic value. With economic 
 ranking, stands that most closely meet the economic criteria specified by the user are the first to receive that management prescription. In the loblolly clearcut prescription, 
 stands with loblolly pine of at least 25 years old were assigned the highest economic value and targeted for harvest. In the longleaf thin/burn and longleaf restoration 
@@ -41,5 +62,5 @@ extension operated at a 3-year time step.
 
 Management prescription table
 
-<img src="./Mgmt prescriptions.PNG" width="70%" />
+<img src="./Mgmt prescriptions.PNG" width="90%" />
 

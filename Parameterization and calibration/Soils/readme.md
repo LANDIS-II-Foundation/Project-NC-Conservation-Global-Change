@@ -89,7 +89,7 @@ To calculate dead wood, each FIA plot in the study area within the last survey c
 whole study area. We assumed that dead coarse roots make up approximately a third of that value.
 
 This is the deadwood map that resulted:
-<img src="./Deadwood.PNG" width="90%" />
+<img src="./Deadwood.png" width="90%" />
 
 #### Notes on data formatting
 Some additional steps were necessary to prepare the maps for LANDIS-II use.

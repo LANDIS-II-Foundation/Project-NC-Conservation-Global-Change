@@ -14,37 +14,53 @@ NECN requires the following maps:
 
 * Soil Depth 1
 * Soil Drain 1
-Field Capacity 1
-Wilting Point 1
-Percent Sand 1
-Percent Clay 1
-Soil Maps of carbon pools 2
-Soil Maps of nitrogen pools 2
-Dead Wood on the Surface 3
-Dead Wood of Coarse Roots 3
-Base Flow to Streams 4
-Storm Flow to Streams 4
+* Field Capacity 1
+* Wilting Point 1
+* Percent Sand 1
+* Percent Clay 1
+* Soil Maps of carbon pools 2
+* Soil Maps of nitrogen pools 2
+* Dead Wood on the Surface 3
+* Dead Wood of Coarse Roots 3
+* Base Flow to Streams 4
+* Storm Flow to Streams 4
 
 Map 1s are derived from the USGS ggsurgo database. Map 2s are derived from total soil carbon maps (West 2014). Map 3s are interpolated from FIA data. 
 BaseFlow and Storm Flow (Map 4s) are treated as stationary variables in this simulation.
 
+#### Soil carbon and nitrogen
+To create soil carbon and nitrogen maps for each soil pool, I reprojected and cropped West's (2014) total soil carbon map to the study extent. Based on Melissa Lucash's work, 
+estimated ratios of carbon in each soil pool (surface, fast, medium and slow) as well as C:N ratios were used to create soil maps.
 
+As a fraction of total carbon, each carbon pool is:
+SOM1surfC=.01 
+SOM1soilC=.02 
+SOM2C=.59 
+SOM3C=.38 
 
-I began by getting the carbon and nitrogen Maps. I started with a total soil carbon map (West 2014), reprojected it, cut to the extent and then used estimated ratios of carbon in each pool (surface, fast, medium and slow) as well as C: N ratios and Dr. Lucash’s work to create the soil maps.
-
-As a fraction of total carbon each carbon pool is:
-
-SOM1surfC=.01
-SOM1soilC=.02
-SOM2C=.59
-SOM3C=.38
-Each nitrogen map is then created by multiplying the carbon in that pool by:
-
-SOM1surfN=.1
-SOM1soilN=.1
-SOM2N=.04
-SOM3N=.118
+Each nitrogen map is then created by multiplying the carbon in the respective pool by:
+SOM1surfN=.1 
+SOM1soilN=.1 
+SOM2N=.04 
+SOM3N=.118 
 A minimum value of 2.0 was set for the nitrogen value to avoid complete lack of N in some stands with low soil carbon.
+
+#### Soil characteristics
+Soil maps for feild capacity, wilting point, soil depth, soil drainage, flood frequency, and sand and clay percentages were created using the gssurgo and ssurgo database. 
+ggsurgo is gridded to a 10m resolution which was aggreggated to 50m for processing.
+
+ggsurgo works on a component and map key system, requiring attribute joins to create a map of a single trait. Four tables were joined to create the soil characteristics maps: 
+the chorizon,component,conmonth, and corestriction tables.
+
+Fields used key:
+
+Draiange = component:drainagecl
+Flood Frequency= conmonth:Flodfreqdcl
+Wiltpoint= chorizon:wfifteenbar:r
+Feild capacity= wthirdbar:r
+Sand Percentage= chorizon:sandtotal_R:RV
+Clay Percentage= chorizon:claytotal_R:RV
+Soil depth= corestriction:resdept_r
 
 Sources: 
 Parton, W. 2013. CENTURY Soil Organic Matter Model Environment. Technical Documentation. Agroecosystem Version 3.0. USDA-ARS, Forest Collins, CO.

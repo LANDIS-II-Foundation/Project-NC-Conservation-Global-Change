@@ -3,13 +3,13 @@
 We chose to evaluate landscape connectivity using a guild approach for four theoretical, trait-based species guilds instead of one or two specific species because we felt this 
 offered broader conservation insight and greater generalization of findings (Blaum et al. 2011, Lechner et al. 2017). Assessing potential landscape connectivity over time on a 
 dynamic landscape for these trait-based species types allowed us to represent a suite of species and inform efficient conservation planning, a valuable insight for land managers 
-with multi-species centered conservation goals (Koen et al. 2014, Beier et al. 2008). In this way, we focused on facilitating connectedness and managing ecosystems for functional 
-capacity rather than focusing on particular species as recommended by Barnosky et al. (2017). We focused on two species traits known to influence the accessibility of landscape 
-elements: degree of habitat specialization and dispersal ability. These two traits were combined to produce four simulated species: habitat specialist/high dispersal ability, 
-habitat generalist/high dispersal ability, habitat specialist/low dispersal ability, and habitat generalist/low dispersal ability. Habitat specialists were designated as those 
-that preferred mature (> 21 year median stand age) longleaf pine forests while habitat generalists were designated as having an affinity for any mature non-plantation pine forest 
-habitat type. High and low dispersal distances of 1,000m and 5,000m were selected to represent the maximum dispersal abilities of a range of common reptiles and small mammals from 
-southeastern US similar to methods described in Bishop-Taylor et al. (2017) and Saura et al. (2011) (Sutherland et al. 2000, Smith and Green 2005).
+with multi-species centered conservation goals (Koen et al. 2014, Beier et al. 2008). In this way, we focused on facilitating connectedness and managing ecosystems for 
+functional capacity rather than focusing on particular species as recommended by Barnosky et al. (2017). We focused on two species traits known to influence the accessibility of 
+landscape elements: degree of habitat specialization and dispersal ability. These two traits were combined to produce four simulated species: habitat specialist/high dispersal 
+ability, habitat generalist/high dispersal ability, habitat specialist/low dispersal ability, and habitat generalist/low dispersal ability. Habitat specialists were designated 
+as those that preferred mature (> 21 year median stand age) longleaf pine forests while habitat generalists were designated as having an affinity for any mature non-plantation 
+pine forest habitat type. High and low dispersal distances of 1,000m and 5,000m were selected to represent the maximum dispersal abilities of a range of common reptiles and 
+small mammals from southeastern US similar to methods described in Bishop-Taylor et al. (2017) and Saura et al. (2011) (Sutherland et al. 2000, Smith and Green 2005).
 
 We used structural and functional graph theoretic metrics to quantify potential connectivity across the landscape over time. Graph theory network analysis efficiently assesses 
 landscape connectivity across large study areas, incorporating both landscape structure and organism movement information to provide indices of connectivity well-suited for 
@@ -74,6 +74,9 @@ is the ratio of ECA to the total habitat area of the landscape (McIntyre et al. 
 these two metrics provide both an assessment of the changes in habitat connectivity relative to the changes in habitat amount on the landscape and a scaled assessment of how 
 connectivity may be altered by habitat area as a proxy for habitat fragmentation (McIntyre et al. 2018, Bishop-Taylor et al. 2017). Each metric was averaged across replicates 
 for each conservation strategy/species type combination.
+
+Connectivity metrics table:
+<img src="./Connectivity metrics.PMG" width="80%" />
 
 
 To reduce processing time and memory requirements:

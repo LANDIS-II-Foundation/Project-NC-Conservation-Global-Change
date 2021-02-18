@@ -72,7 +72,10 @@ Drainage categories:
 *	Excessively= 1
 *	Other= 1
 
-
+These are the resulting maps:
+<img src="./sand and clay.PNG" width="90%" />
+<img src="./depth and drain.PNG" width="90%" />
+<img src="./wilt and field.PNG" width="90%" />
 
 
 #### Dead wood and roots

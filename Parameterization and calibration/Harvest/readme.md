@@ -10,7 +10,7 @@ Conterminous US map (https://www.fs.fed.us/nrs/pubs/rmap/rmap_nrs6.pdf). This ma
 
 Management map for my study area
 
-
+<img src="./Mgmtareas.jpg" width="80%" />
 
 We then further subdivided the landscape into forest stands for the forest stand map using an extensive map of roads and streams. I originally only subdivide by major roads and 
 streams layers but this yielded stands that were far too large. I had to redo the subdivision, this time by all roads and all streams on my landscape to create smaller stands. 
@@ -19,5 +19,5 @@ holdings data from 2017-2018 from NWOS survey.
 
 Comparison of Rajan's stand data and my simulated stand sizes
 
-
+<img src="./Stands.PNG" width="90%" />
 

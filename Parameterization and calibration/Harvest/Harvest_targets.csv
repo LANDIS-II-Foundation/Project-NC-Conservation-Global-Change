@@ -1,0 +1,7 @@
+presc,ma,land owner type in LANDIS mgmt area map,targets (ha)/year,,
+ LoblollyClearcut,5,Private family,"1,402",,"105173 private family cells/30 year rotation, assumed 2/5 of which is loblolly= 42,069; harvesting most ~80-85%; 34000/30 = amt to harvest per year = 1133"
+ LoblollyClearcut,6,Private industrial,1080,,"32500 private corporate cells/30 year rotation, assumed harvesting most; 32500/30 = amt to harvest per year = 1080"
+ LLPHardwoodThinBurn,2,Federal,1011,,2500 acres per year (numbers from Rob) = 1011 hectares per year; Ft. Bragg is 65964 hectares total; ~1.5% burned every year
+ LLPHardwoodThinBurn,7,Other private,85,,"2032 cells total, 1/2 of which are in Sandhills (1016 acres); 1.5% of Ft Bragg is burned every year but a bunch that isn't burned is containment area or populated. 4% of 2032 = ~85 hectares"
+FamilyMixedForest,5,Private family,"3,155",,"Guess that 3/5 of private family forest is mixed forest (=105173*0.6 = 63,103) * 5% thinned annually = 3,155 hectares"
+LLPHardwoodThinBurn,3,State,,,

@@ -3,8 +3,8 @@
 We decided on only one climate region after determining that the study area had minimial differences in temperature and precipitation along with low topographical variation 
 (INSERT PRECIP AND TEMP GRAPHS HERE!!!!!).
 
-Business as usual scenario climate data came from the USGS Geodata portal and were downloaded as daily precipitation, maximum and minimum termperatures, and wind speed (ADD SOURCE 
-HERE!!!). 
+Business as usual scenario climate data came from the USGS Geodata portal daily observed data from 1949 to 2010 and were downloaded as daily precipitation, maximum and minimum 
+temperatures, and wind speed. 
 
 Climate change projections from the Coupled Model Intercomparison Project Phase 5 downscaled using the Multivariate Adaptive Constructed Analogs (MACA) method were downloaded
 as monthly precipitation, maximum and minimum temperature, and wind speedfrom the MACA data portal as netcdf files (https://climate.northwestknowledge.net/MACA/data_portal.php).

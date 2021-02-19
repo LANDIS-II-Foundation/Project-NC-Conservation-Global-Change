@@ -45,7 +45,7 @@ Extensions included:
 * Extension Output Biomass: Species biomass (https://github.com/LANDIS-II-Foundation/Extension-Output-Biomass)
 * Extension Output Cohort Statistics: Species and community statistics (https://github.com/LANDIS-II-Foundation/Extension-Output-Cohort-Statistics)
 
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 People:
 - Tina Mozelewski, North Carolina State University
 - Robert Scheller, North Carolina State University

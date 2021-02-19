@@ -53,6 +53,7 @@ Climate inputs:
 
 Land use change inputs:
 * LandUse_Change.txt
+* land-use-0.tif, land-use-10.tif, land-use-20.tif, land-use-30.tif, land-use-40.tif, land-use-50.tif, land-use-60.tif, land-use-70.tif, land-use-80.tif
 
 Output extension inputs:
 * output_biomass.txt

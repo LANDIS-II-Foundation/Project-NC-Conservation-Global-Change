@@ -14,7 +14,7 @@ species in this functional group and it has similar temperature and precipitatio
 * sources excel sheet for exact sources of each data field.
 * Initial mineral N was an estimate similar to the value found in other LANDIS-II projects (Lake Tahoe, Melissa Lucash’s VIFF project) and based on Rob’s suggestions; set to 4
 * Atmospheric N slope/intercept was attained by looking up NADP N deposition data for the past 20 years and plotting it as a function of yearly total precipitation in excel and 
-finding the slope and intercept of the trend line. (Ndep values from NADP were multiplied by 0.1 to get correct units). This calculation can be found in 
+finding the slope and intercept of the trend line. (Ndep values from NADP were multiplied by 0.1 to get correct units). This calculation can be found in the NECN_nitrodep.xl.xls
 * Denitrification rate and all of the SOM decay rates were originally taken from the Lake Tahoe LANDIS-II project single cell calibration text file and then calibrated for NC.
 * After calibrating loblolly, I calibrated red oak and white maple individually, then those three in a single cell collectively, then began landscape level calibration. 
 * Calibration efforts were cleared by Rob.

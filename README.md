@@ -7,6 +7,15 @@ A way to simulate the systematic, continuous, and dynamic implementation of cons
 
 <img src="./Images/Black white and red inset.jpg" width="60%" />
 
+### Github organization
+This repository contains the documents, installers, and model inputs for the North Carolina conservation and global change LANDIS-II project. It contains the following folders:
+
+#### Model inputs
+These are the primary inputs for running the LANDIS-II model for the central North Carolina landscape. LANDIS inputs include both maps and text files, dependent upon the 
+extensions selected.
+
+#### 
+
 People:
 - Tina Mozelewski, North Carolina State University
 - Robert Scheller, North Carolina State University

@@ -10,11 +10,41 @@ A way to simulate the systematic, continuous, and dynamic implementation of cons
 ### Github organization
 This repository contains the documents, installers, and model inputs for the North Carolina conservation and global change LANDIS-II project. It contains the following folders:
 
+#### Code
+Contains R scripts that were used to derive inputs and to analyze LANDIS-II model outputs.
+
+#### Connectivity
+Details the methods of connectivity analysis for all network and graph theoretic connectivity research.
+
+#### Images
+Houses the images shown in this README.md file
+
+#### Conservation strategies
+Describes the development of each conservation strategy and their incorporation into the LANDIS-II modeling framework.
+
 #### Model inputs
 These are the primary inputs for running the LANDIS-II model for the central North Carolina landscape. LANDIS inputs include both maps and text files, dependent upon the 
 extensions selected.
 
-#### 
+#### Model installers
+The version of each LANDIS extension used for forecasting forest change.
+
+#### Parameterization and calibration
+Houses subfolders that describe the process of parameterization and calibration of each component of the central North Carolina LANDIS-II model.
+
+#### Supplemental documentation
+Contains documents describing the model extentions used, the supplemental material doc for each manuscript, and other information relevant to LANDIS-II modeling work for
+this project.
+
+Extensions included:
+
+* Extension NECN Succession: Succession and Carbon dynamics (https://github.com/LANDIS-II-Foundation/Extension-NECN-Succession)
+* Extension Biomass Harvest: Harvest management (https://github.com/LANDIS-II-Foundation/Extension-Biomass-Harvest)
+* Extension Base Hurricane: Hurricane simulation (https://github.com/LANDIS-II-Foundation/Extension-Base-Hurricane)
+* Extension Land Use Plus: Land use change (https://github.com/LANDIS-II-Foundation/Extension-Land-Use-Plus)
+* Extension Output Biomass: Species biomass (https://github.com/LANDIS-II-Foundation/Extension-Output-Biomass)
+* Extension Output Cohort Statistics: Species and community statistics (https://github.com/LANDIS-II-Foundation/Extension-Output-Cohort-Statistics)
+
 
 People:
 - Tina Mozelewski, North Carolina State University

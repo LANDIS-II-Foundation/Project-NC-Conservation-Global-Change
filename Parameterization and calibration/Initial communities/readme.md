@@ -31,7 +31,7 @@ And Sorensens: $\frac{2*\sum(min(aij+bij))}{Si+Sj}$
 
 The two least dissimilar plots are assigned to one another. This process is repeated for each raster cell.
 
-<img src="./IC.jpg" width="90%" />
+<img src="./IC.png" width="90%" />
 
 Citations: 
 Wilson, B.T., Lister, A.J., Riemann, R.I., Griffith, D.M. (2013.) Live tree species basal area of the contiguous United States (2000-2009). Newtown Square, PA: USDA 

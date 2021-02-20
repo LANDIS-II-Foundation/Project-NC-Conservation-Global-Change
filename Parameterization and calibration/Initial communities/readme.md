@@ -21,8 +21,8 @@ First, imputation maps for every modeled species were reprojected and cropped to
 <img src="./First half Ty Wilson spp.PNG" width="90%" />
 <img src="./Second half Ty Wilson spp.PNG" width="90%" />
 
-Next, we did an association by species basal area to match FIA plots to tree species compositions based on Wilson et al. (2013) in each cell. We compared two different 
-associations: 
+Next, we did an association by species basal area to match FIA plots to tree species compositions based on Wilson et al. (2013) in each cell. FIA plots from North Carolina, 
+South Carolina, and Virginia were used because North Carolina FIA plots alone offered too small of a sample size. We compared two different possible methods of association: 
 
 Bray Curtis: 1 − ((2Cij)/S**i + S**j)
 
@@ -30,20 +30,20 @@ where C is the Basal area of species in common between the two sites and S is th
 
 And Sorensens: $\frac{2*\sum(min(aij+bij))}{Si+Sj}$
 
-The two least dissimilar plots are assigned to one another. This process is repeated for each raster cell.
+where the two least dissimilar plots are assigned to one another. This process is repeated for each raster cell.
 
-The output of these assocations were compared to the FIA and Imputed data we have on species composition. Because the associations select the least dissimilar plot, there is a 
-possibility for the inclusion or exclusion of species in the association. The Sorensen's plots were the most similar in terms of species assemblage to both the FIA and imputed 
+The output of these assocations were compared back to the original FIA and imputed species composition data. Because the associations select the least dissimilar plot, there is 
+a possibility for the inclusion or exclusion of species in the association. The Sorensen's plots were the most similar in terms of species assemblage to both the FIA and imputed 
 maps so we used Sorensen's for our IC map creation.
 
-AFter association FIA plots with each raster cell, we used data from FIA to get age and carbon using the Carmean, Hann, and Jacobs (1989) site index curves to associate age with 
-height and site index. Each species has unique parameters to its growth curve, which is used with its height and site index to estimate its age. Now 
-each tree in each plot will have age and carbon necessary to build the cohorts at each location.
+After associating FIA plots with each raster cell, we used data from FIA to get age and carbon using the Carmean, Hann, and Jacobs (1989) site index curves to associate age with 
+height and site index. Each species has unique parameters to its growth curve, which is used with its height and site index to estimate its age. This assigned each tree in each 
+plot the age and carbon necessary to build the tree species-age cohorts at each forested cell on the study landscape.
 
 $AgeT=(1/c_3)*ln[1-\frac{HT}{c1*SI^{c2}}]^{(\frac{1}{c4})*(SI^{c5})}$
 
-Once we have this age assigned to each stand, we can use the FIA calculation of above ground carbon to estimate biomass (2x carbon). TO do this, we multipled FIA above ground 
-carbon by FIA Growing trees per acre multiplier, convert it from ft2 per acre to g/m2 and multiply it by two to represent above ground biomass.
+Once we assigned age to each stand, we used the FIA calculation of above ground carbon to estimate biomass (2x carbon). To do this, we multipled FIA above ground carbon by FIA 
+Growing trees per acre multiplier, converted it from ft2 per acre to g/m2 and multiplied it by two to represent above ground biomass.
 
 Comparison of LANDIS-II modeled IC biomass (thinner line) to FIA biomass (thicker black dotted line)
 

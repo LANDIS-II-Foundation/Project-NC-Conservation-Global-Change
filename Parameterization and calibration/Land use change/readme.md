@@ -4,4 +4,10 @@ pathway 2 (SSP2) represents a middle of the road land use change scenario in whi
 represents a scenario in which strong market forces and technological progress support both economic and social development leading to greater population growth and urban 
 expansion. These land use change projections can be found at https://www.epa.gov/gcx/iclus-downloads
 
+Low land use change scenario (SSP2)
 
+<img src="./LUC_low_80.PNG" width="60%" />
+
+High land use change scenario (SSP5)
+
+<img src="./LUC_low_80.PNG" width="60%" />

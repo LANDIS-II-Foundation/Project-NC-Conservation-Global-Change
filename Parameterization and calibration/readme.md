@@ -1,4 +1,5 @@
-This folder details the parameterization, calibration, and validation for the central North Carolina LANDIS-II model. Each folder represents the parameterization and calibration of one component of the model.
+This folder details the parameterization, calibration, and validation for the central North Carolina LANDIS-II model. Each subfolder represents the parameterization and 
+calibration of one component of the model.
 
 #### Model setup folders:
 * Climate- details climate data used in business as usual (BAU) scenarios and the data used for the climate ensemble models for climate change scenarios.

@@ -40,7 +40,7 @@ Extensions included:
 
 * Extension NECN Succession: Succession and Carbon dynamics (https://github.com/LANDIS-II-Foundation/Extension-NECN-Succession)
 * Extension Biomass Harvest: Harvest management (https://github.com/LANDIS-II-Foundation/Extension-Biomass-Harvest)
-* Extension Base Hurricane: Hurricane simulation (https://github.com/LANDIS-II-Foundation/Extension-Base-Hurricane)
+* Extension Base Hurricane: Simulates mortality from hurricane winds (https://github.com/LANDIS-II-Foundation/Extension-Base-Hurricane)
 * Extension Land Use Plus: Land use change (https://github.com/LANDIS-II-Foundation/Extension-Land-Use-Plus)
 * Extension Output Biomass: Species biomass (https://github.com/LANDIS-II-Foundation/Extension-Output-Biomass)
 * Extension Output Cohort Statistics: Species and community statistics (https://github.com/LANDIS-II-Foundation/Extension-Output-Cohort-Statistics)

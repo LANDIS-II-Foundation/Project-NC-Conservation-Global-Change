@@ -31,6 +31,8 @@ And Sorensens: $\frac{2*\sum(min(aij+bij))}{Si+Sj}$
 
 The two least dissimilar plots are assigned to one another. This process is repeated for each raster cell.
 
+<img src="./Biomass CDF comparisson.png" width="90%" />
+
 <img src="./IC.png" width="90%" />
 
 Citations: 

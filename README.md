@@ -16,11 +16,11 @@ Contains R scripts that were used to derive inputs and to analyze LANDIS-II mode
 #### Connectivity
 Details the methods of connectivity analysis for all network and graph theoretic connectivity research.
 
-#### Images
-Houses the images shown in this README.md file
-
 #### Conservation strategies
 Describes the development of each conservation strategy and their incorporation into the LANDIS-II modeling framework.
+
+#### Images
+Houses the images shown in this README.md file
 
 #### Model inputs
 These are the primary inputs for running the LANDIS-II model for the central North Carolina landscape. LANDIS inputs include both maps and text files, dependent upon the 

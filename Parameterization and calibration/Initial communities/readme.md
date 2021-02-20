@@ -18,7 +18,8 @@ et al. 2013).
 
 First, maps for every modeled species were reprojected and cropped to the study area. 
 
-
+<img src="./First half Ty Wilson spp.PNG" width="90%" />
+<img src="./Second half Ty Wilson spp.PNG" width="90%" />
 
 Next, we did an association by species basal area.
 

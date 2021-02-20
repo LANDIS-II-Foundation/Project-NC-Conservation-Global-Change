@@ -6,8 +6,8 @@ expansion. These land use change projections can be found at https://www.epa.gov
 
 Low land use change scenario (SSP2)
 
-<img src="./LUC_low_80.PNG" width="60%" />
+<img src="./LUC_80_low.PNG" width="60%" />
 
 High land use change scenario (SSP5)
 
-<img src="./LUC_low_80.PNG" width="60%" />
+<img src="./LUC_80_high.PNG" width="60%" />

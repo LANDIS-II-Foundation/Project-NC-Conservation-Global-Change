@@ -53,6 +53,10 @@ This results in the final intial communities map:
 
 <img src="./IC.png" width="90%" />
 
+Difference in LANDIS-II IC biomass and Wilson et al. (2013) biomass estimates:
+
+<img src="./LANDIS biomass diff.PNG" width="90%" />
+
 Citations: 
 Wilson, B.T., Lister, A.J., Riemann, R.I., Griffith, D.M. (2013.) Live tree species basal area of the contiguous United States (2000-2009). Newtown Square, PA: USDA 
 Forest Service, Rocky Mountain Research Station. https://doi.org/10.2737/RDS-2013-0013

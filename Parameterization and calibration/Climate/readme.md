@@ -4,7 +4,7 @@ Climate regions used in LANDIS-II are typically delinated by substantial changes
 decided on only one climate region after determining that the study area had only small differences in temperature and precipitation along with low to moderate topographical 
 variation. 
 
-<img src="./climate region variables.PNG" width="75%" />
+<img src="./climate region variables.PNG" width="85%" />
 
 Business as usual scenario climate data came from the USGS Geodata portal daily observed data from 1949 to 2010 and were downloaded as daily precipitation, maximum and minimum 
 temperatures, and wind speed. 

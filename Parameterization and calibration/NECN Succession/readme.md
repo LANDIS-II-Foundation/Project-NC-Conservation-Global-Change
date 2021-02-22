@@ -41,3 +41,5 @@ Denitrification rate and all of the SOM decay rates were originally taken from t
 file and then calibrated for NC. For an example of the calibration process using loblolly pine to refine denitrification and decay rates, reference loblolly runs graphed.xlsx in 
 this subfolder.
 
+Citations:
+He, L., Chen, J.M., Pan, Y., Birdsey, R., & Kattge, J. (2012). Relationships between net primary productivity and forest stand age in US forests. Global Biogeochemical Cycles, 26(3).

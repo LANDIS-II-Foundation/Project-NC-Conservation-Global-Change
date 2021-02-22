@@ -35,7 +35,7 @@ suggestions was set to 4. Atmospheric N slope/intercept was attained by looking 
 precipitation in excel and finding the slope and intercept of the trend line. (Ndep values from NADP were multiplied by 0.1 to get correct units). This calculation can be found 
 in the NECN nitrodep xl.xlsx file. 
 
-
+<img src="./Ndep.PNG" width="70%" />
 
 Denitrification rate and all of the SOM decay rates were originally taken from the Lake Tahoe LANDIS-II project single cell calibration text 
 file and then calibrated for NC. For an example of the calibration process using loblolly pine to refine denitrification and decay rates, reference loblolly runs graphed.xlsx in 

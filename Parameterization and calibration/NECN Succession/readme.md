@@ -1,5 +1,9 @@
 ### NECN Succession extension
 
+#### Species parameterization
+Species values were taken from the original linkages manual which can be found at https://daac.ornl.gov/daacdata/model_archive/LINKAGES/comp/ORNL_TM-9519.pdf, various entries in 
+the TRY database, and existing LANDIS-II papers. Data sources can be found in this subfolder in the NECN data sources.xlsx shreadsheet.
+
 #### Functional groups
 After consulting with Rob, we decided on 4 functional groups. A pines group (loblolly, shortleaf, and longleaf), a group solely for Virginia pine (because Virginia pine has a 
 range that extends further north than the other pines and can tolerate much colder temperatures), a hardwoods group (white oak, sweet gum, red maple, yellow poplar, flowering 
@@ -8,6 +12,7 @@ and precipitation limit differences). Of the hardwoods functional group, sourwoo
 species in this functional group and it has similar temperature and precipitation limitations.
 
 #### Calibration
+To calibrate the NECN extension, we began with single-cell simulations (one cell, monoculture). We did this for three dominant species on the landscape: loblolly pine, red maple, and white oak. 
 * Used loblolly pine for single cell/single species calibration because it is the most prevalent species on my study extent.
 * I got single cell soil values from the NRCS soil maps that Zachary Robbins sent along
 * Species values come from Katie Martin’s 2015 Carbon Tradeoffs paper in Ecosystems, LINKAGES manual, TRY database, LANDIS New Jersey Pine Barrens paper, etc. See NECN data 

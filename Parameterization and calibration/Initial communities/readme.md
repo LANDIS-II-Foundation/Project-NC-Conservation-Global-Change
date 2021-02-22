@@ -22,11 +22,15 @@ First, imputation maps for every modeled species were reprojected and cropped to
 <img src="./Second half Ty Wilson spp.PNG" width="90%" />
 
 Next, we did an association by species basal area to match FIA plots to tree species compositions based on Wilson et al. (2013) in each cell. FIA plots from North Carolina, 
-South Carolina, and Virginia were used because North Carolina FIA plots alone offered too small of a sample size. We compared two different possible methods of association: 
+South Carolina, and Virginia were used because North Carolina FIA plots alone offered too small of a sample size. We compared four different possible methods of association: 
 
 Bray Curtis: 1 − ((2Cij)/S**i + S**j)
 
 where C is the Basal area of species in common between the two sites and S is the total basal area at each site.
+
+Jaccards: 1 − (C**i + C**j/S**i + S**j) The Basal area of species that are include in both sites(inclusive) divided by the the totals
+
+Euclidean Distance: Sqr**t((a**i + a**j)2 + (b**i + b**j)2..(n**i + n**j)2) the common biomass is square and the square root of the sum is taken.
 
 And Sorensens: $\frac{2*\sum(min(aij+bij))}{Si+Sj}$
 
@@ -34,7 +38,7 @@ where the two least dissimilar plots are assigned to one another. This process i
 
 The output of these assocations were compared back to the original FIA and imputed species composition data. Because the associations select the least dissimilar plot, there is 
 a possibility for the inclusion or exclusion of species in the association. The Sorensen's plots were the most similar in terms of species assemblage to both the FIA and imputed 
-maps so we used Sorensen's for our IC map creation.
+maps so we used Sorensen's for our IC map creation. (This comparison can be viewed in the multi-modelcomparison.csv in this subfolder).
 
 After associating FIA plots with each raster cell, we used data from FIA to get age and carbon using the Carmean, Hann, and Jacobs (1989) site index curves to associate age with 
 height and site index. Each species has unique parameters to its growth curve, which is used with its height and site index to estimate its age. This assigned each tree in each 

@@ -12,14 +12,15 @@ and precipitation limit differences). Of the hardwoods functional group, sourwoo
 species in this functional group and it has similar temperature and precipitation limitations.
 
 #### Calibration
-To calibrate the NECN extension, we began with single-cell simulations (one cell, monoculture). We did this first for three dominant species on the landscape: loblolly pine, red 
-maple, and white oak. Once those individual species were calibrated, we moved on to 
-* Used loblolly pine for single cell/single species calibration because it is the most prevalent species on my study extent.
-* I got single cell soil values from the NRCS soil maps that Zachary Robbins sent along
-* Initial mineral N was an estimate similar to the value found in other LANDIS-II projects (Lake Tahoe, Melissa Lucash’s VIFF project) and based on Rob’s suggestions; set to 4
+To calibrate the NECN extension, we began with single-cell simulations (one cell, monoculture). Single cell soils values used for NECN were taken from Natural Resource 
+Conservation Service soils data from North Carolina and can be viewed in the Single cell soils values list.xlsx spreadsheet in this subfolder. We did this first for three dominant 
+species on the landscape: loblolly pine, red maple, and white oak. Once those individual species were calibrated, we moved on to other single cell, single species calibrations for 
+the rest of our 11 species. After these calibrations, we moved on to single cell, single species, multiple cohort calibrations for loblolly, red maple, and white oak. We then calibrated a single cell with all 11 species before moving on calibrating the entire landscape.
+
+* Initial mineral N was an estimate similar to the value found in other LANDIS-II projects (Lake Tahoe, Melissa Lucash’s VIFF project) and based on Rob’s suggestions was set to 4
 * Atmospheric N slope/intercept was attained by looking up NADP N deposition data for the past 20 years and plotting it as a function of yearly total precipitation in excel and 
 finding the slope and intercept of the trend line. (Ndep values from NADP were multiplied by 0.1 to get correct units). This calculation can be found in the NECN nitrodep xl.xlsx 
 file
-* Denitrification rate and all of the SOM decay rates were originally taken from the Lake Tahoe LANDIS-II project single cell calibration text file and then calibrated for NC.
-* After calibrating loblolly, I calibrated red oak and white maple individually, then those three in a single cell collectively, then began landscape level calibration. 
+* Denitrification rate and all of the SOM decay rates were originally taken from the Lake Tahoe LANDIS-II project single cell calibration text file and then calibrated for NC. For 
+an example of the calibration process using loblolly pine to refine denitrification and decay rates, reference loblolly runs graphed.xlsx in this subfolder.
 * Calibration efforts were cleared by Rob.

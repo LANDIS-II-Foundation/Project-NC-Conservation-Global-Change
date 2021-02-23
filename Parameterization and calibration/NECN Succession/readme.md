@@ -21,12 +21,12 @@ calibrations for the rest of our 11 species. After these calibrations, we moved 
 white oak. We then calibrated a single cell with all 11 species before moving on calibrating the entire landscape. All calibration efforts were cleared by Rob before moving on 
 to the next phase.
 
-We will describe this process for single cell loblolly, but the same general rules apply to every level of calibration. These rules include:
+These general rules were applied to most, if not every, level of calibration:
 * Mineral nitrogen should generally stay less than 10
 * Soil organic matter total carbon (SOMTC) should be fairly stable or gently increase over time
 * Gentle increases in soil organic matter (SOM) values; SurfC and SOM1C will be the most volatile while SOM3 will be the most stable.
 * Detrital C/N > tree C/N > soil C/N
-* Leaf area index (LAI) should increase before plateauing. Make sure that the inflection point matches the literature.
+* Leaf area index (LAI) should increase before plateauing. Make sure that the inflection point matches the literature. (Can only use for single cell calibration)
 * Above ground net primary productivity (ANPP) should increase over the span of the simulation, but that increase should slow with time.
 * Above ground biomass(AGB) should be validated with FIA data.
 

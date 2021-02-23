@@ -42,5 +42,13 @@ this subfolder. Photo here:
 
 <img src="./loblolly parms test.PNG" width="90%" />
 
+The next step in calibration and validation was to validate above ground biomass and LAI for several of the modeled species. 
+
+To calibrate above ground biomass, we isolated the top 25% of FIA plots by above ground carbon per age, assuming this to represent plots with ideal growing conditions for each 
+species. These were then plotted as box plots and compared against simulated above ground biomass of each species. All comparisons to FIA data reference FIA plots from North 
+Carolina, South Carolina, and Virginia. LAI was validated against established values for forests from He et al. (2012).
+
+Landscape-level above ground biomass was validated against forest data cpllected in and around Ft. Bragg in central North Carolina.
+
 Citations:
 He, L., Chen, J.M., Pan, Y., Birdsey, R., & Kattge, J. (2012). Relationships between net primary productivity and forest stand age in US forests. Global Biogeochemical Cycles, 26(3).

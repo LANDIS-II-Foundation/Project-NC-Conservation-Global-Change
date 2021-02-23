@@ -39,7 +39,9 @@ in the NECN nitrodep xl.xlsx file.
 
 Denitrification rate and all of the SOM decay rates were originally taken from the Lake Tahoe LANDIS-II project single cell calibration text 
 file and then calibrated for NC. For an example of the calibration process using loblolly pine to refine denitrification and decay rates, reference loblolly runs graphed.xlsx in 
-this subfolder.
+this subfolder. Photo here:
+
+<img src="./loblolly parms test.PNG" width="90%" />
 
 Citations:
 He, L., Chen, J.M., Pan, Y., Birdsey, R., & Kattge, J. (2012). Relationships between net primary productivity and forest stand age in US forests. Global Biogeochemical Cycles, 26(3).

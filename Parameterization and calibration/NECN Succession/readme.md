@@ -26,8 +26,7 @@ These general rules were applied to most, if not every, level of calibration:
 * Soil organic matter total carbon (SOMTC) should be fairly stable or gently increase over time
 * Gentle increases in soil organic matter (SOM) values; SurfC and SOM1C will be the most volatile while SOM3 will be the most stable.
 * Detrital C/N > tree C/N > soil C/N
-* Leaf area index (LAI) should increase before plateauing. Make sure that the inflection point matches the literature. (Can only use for single cell calibration)
-* Above ground net primary productivity (ANPP) should increase over the span of the simulation, but that increase should slow with time.
+* Leaf area index (LAI) should increase before plateauing. Make sure that the inflection point matches the literature. (Can only use for single cell calibration.)
 * Above ground biomass(AGB) should be validated with FIA data.
 
 For this project, initial mineral N was an estimate similar to the values found in other LANDIS-II projects (Lake Tahoe, Melissa Lucash’s VIFF project) and based on Rob’s 

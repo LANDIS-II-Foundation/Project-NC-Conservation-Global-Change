@@ -42,10 +42,10 @@ this subfolder. Photo here:
 
 <img src="./loblolly parms test.PNG" width="90%" />
 
-The next step in calibration and validation was to validate above ground biomass and LAI for several of the modeled species. To calibrate above ground biomass, we isolated the 
-top 25% of FIA plots by above ground carbon per age, assuming this to represent plots with ideal growing conditions for each species. These were then plotted as box plots and 
-compared against simulated above ground biomass of each species. All comparisons to FIA data reference FIA plots from North Carolina, South Carolina, and Virginia. LAI was 
-validated against established values for forests from He et al. (2012).
+The next step in calibration and validation was to validate above ground biomass and LAI for several of the modeled species across our functional groups. To calibrate above 
+ground biomass, we isolated the top 25% of FIA plots by above ground carbon per age, assuming this to represent plots with ideal growing conditions for each species. These were 
+then plotted as box plots and compared against simulated above ground biomass of each species. All comparisons to FIA data reference FIA plots from North Carolina, South 
+Carolina, and Virginia. LAI was validated against established values for forests from He et al. (2012).
 
 <img src="./Loblolly calibration graphics.PNG" width="80%" />
 _______________________________________________________________________________________________________________________________________________________

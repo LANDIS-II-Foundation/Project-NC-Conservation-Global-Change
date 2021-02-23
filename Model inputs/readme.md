@@ -53,7 +53,10 @@ Climate inputs:
 
 Land use change inputs:
 * LandUse_Change.txt
-* land-use-0.tif, land-use-10.tif, land-use-20.tif, land-use-30.tif, land-use-40.tif, land-use-50.tif, land-use-60.tif, land-use-70.tif, land-use-80.tif
+* land-use-0-45.tif, land-use-10-45.tif, land-use-20-45.tif, land-use-30-45.tif, land-use-40.tif-45, land-use-50.tif-45, land-use-60-45.tif, land-use-70-45.tif, and
+land-use-80-45.tif are the land use change maps for RCP4.5/SSP2 (land-use-0.tif = map for model time step zero)
+* land-use-0-85.tif, land-use-10-85.tif, land-use-20-85.tif, land-use-30-85.tif, land-use-40.tif-85, land-use-50.tif-85, land-use-60-85.tif, land-use-70-85.tif, and
+land-use-80-85.tif are the land use change maps for RCP8.5/SSP5
 
 Output extension inputs:
 * output_biomass.txt

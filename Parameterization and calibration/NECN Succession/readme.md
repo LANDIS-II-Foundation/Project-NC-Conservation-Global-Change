@@ -47,6 +47,10 @@ top 25% of FIA plots by above ground carbon per age, assuming this to represent 
 compared against simulated above ground biomass of each species. All comparisons to FIA data reference FIA plots from North Carolina, South Carolina, and Virginia. LAI was 
 validated against established values for forests from He et al. (2012).
 
+<img src="./Loblolly calibration graphics.PNG" width="80%" />
+
+<img src="./Virginia pine calibration graphics.PNG" width="80%" />
+
 Landscape-level above ground biomass was validated against forest data collected in and around Ft. Bragg in central North Carolina that was used for the LANDIS-II Ft. Bragg 
 project.
 

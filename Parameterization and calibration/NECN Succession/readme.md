@@ -48,7 +48,7 @@ compared against simulated above ground biomass of each species. All comparisons
 validated against established values for forests from He et al. (2012).
 
 <img src="./Loblolly calibration graphics.PNG" width="80%" />
------------------------------------------------------------------------------------------------------------------------------------------
+________________________________________________________________________________________________________________________________________
 <img src="./Virginia pine calibration graphics.PNG" width="80%" />
 -----------------------------------------------------------------------------------------------------------------------------------------
 

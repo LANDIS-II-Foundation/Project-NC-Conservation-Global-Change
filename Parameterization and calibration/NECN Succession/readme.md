@@ -2,7 +2,7 @@
 
 #### Species parameterization
 Species values including C:N ratios and lignin parameters were derived from existing LANDIS-II papers and supplemented with values from the TRY database. Try data was queried by 
-species and by trait and in the even of multiple returns, values were averaged. GGDmin, GDDmax, frost, leaf longevity, and max drought, were taken from the original linkages manual which can be found at https://daac.ornl.gov/daacdata/model_archive/LINKAGES/comp/ORNL_TM-9519.pdf and existing LANDIS-II papers. Species that could not be found in either 
+species and by trait and in the event of multiple returns, values were averaged. GGDmin, GDDmax, frost, leaf longevity, and max drought, were taken from the original linkages manual which can be found at https://daac.ornl.gov/daacdata/model_archive/LINKAGES/comp/ORNL_TM-9519.pdf and existing LANDIS-II papers. Species that could not be found in either 
 way were adapted from a qualitative assessment of range in comparison to known values for other species. Data sources can be found in this subfolder in the NECN data 
 sources.xlsx shreadsheet.
 

@@ -1,6 +1,6 @@
 ### Climate data
 
-Climate regions used in LANDIS-II are typically delinated by substantial changes in topography, mean temperature, or annual or seasonly precipitation across the study area. We 
+Climate regions used in LANDIS-II are typically delineated by substantial changes in topography, mean temperature, or annual or seasonally precipitation across the study area. We 
 decided on only one climate region after determining that the study area had only small differences in temperature and precipitation along with low to moderate topographical 
 variation. 
 

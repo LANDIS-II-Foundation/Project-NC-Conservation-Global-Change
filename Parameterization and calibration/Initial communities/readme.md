@@ -62,8 +62,10 @@ Difference in LANDIS-II IC biomass and Wilson et al. (2013) biomass estimates:
 <img src="./LANDIS biomass diff.PNG" width="90%" />
 
 Citations: 
+
 Wilson, B.T., Lister, A.J., Riemann, R.I., Griffith, D.M. (2013.) Live tree species basal area of the contiguous United States (2000-2009). Newtown Square, PA: USDA 
 Forest Service, Rocky Mountain Research Station. https://doi.org/10.2737/RDS-2013-0013
+
 Carmean, W. H., Hahn, J. T., & Jacobs, R. D. (1989). Site index curves for forest tree species in the eastern United States. General Technical Report NC-128. St. Paul, MN: US 
 Dept. of Agriculture, Forest Service, North Central Forest Experiment Station, 128.
 

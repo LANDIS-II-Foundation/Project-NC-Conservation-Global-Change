@@ -15,8 +15,8 @@ Management map for my study area
 We then further subdivided the landscape into forest stands for the forest stand map using an extensive map of roads and streams. I originally only subdivide by major roads and 
 streams layers but this yielded stands that were far too large. I had to redo the subdivision, this time by all roads and all streams on my landscape to create smaller stands. The 
 roads layer was from the North Carolina Department of Transportation's NCRouteCharacteristics data layer. The streams layer was from the North Carolina DEQ Division of Water 
-Resources Major Hydrography dataset. This subdivision was done in ArcGIS and then had to be reprojected in R similar to the management area map. Stand size was validated with data 
-from Rajan Parajuli- NC-wide land and forest holdings data from 2017-2018 from NWOS survey.
+Resources Major Hydrography dataset. This subdivision was done in ArcGIS and then had to be reprojected in R similar to the management area map. Stand size was validated with 
+data from Rajan Parajuli- NC-wide land and forest holdings data from the 2018 National Woodland Owner Survey (https://www.fia.fs.fed.us/nwos/results/).
 
 Comparison of Rajan's stand data and my simulated stand sizes
 

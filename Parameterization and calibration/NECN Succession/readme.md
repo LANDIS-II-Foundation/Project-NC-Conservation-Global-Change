@@ -32,8 +32,7 @@ These general rules were applied to most, if not every, level of calibration:
 
 For this project, initial mineral N was an estimate similar to the values found in other LANDIS-II projects (Lake Tahoe, Melissa Lucash’s VIFF project) and based on Rob’s 
 suggestions was set to 4. Atmospheric N slope/intercept was attained by looking up National Atmospheric Deposition Program nitrogen deposition data for the past 20 years and 
-plotting it as a function of yearly total precipitation in excel and finding the slope and intercept of the trend line (https://www.usgs.gov/water-resources/national-water-
-quality-program/national-atmospheric-deposition-program-nadp). (Ndep values from NADP were multiplied by 0.1 to get correct units). This calculation can be found in the NECN 
+plotting it as a function of yearly total precipitation in excel and finding the slope and intercept of the trend line (https://www.usgs.gov/water-resources/national-water-quality-program/national-atmospheric-deposition-program-nadp). (Ndep values from NADP were multiplied by 0.1 to get correct units). This calculation can be found in the NECN 
 nitrodep xl.xlsx file. 
 
 <img src="./Ndep.PNG" width="70%" />

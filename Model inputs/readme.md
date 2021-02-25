@@ -1,4 +1,5 @@
-These are the inputs used for all modeling work presented in manuscripts and reports.
+These are the inputs used for all modeling work presented in manuscripts and reports. For parameter units in each file in this subfolder please reference the respective 
+extension's user guide, which can be found at this website by clicking the extension of interest and selecting the user guide: http://www.landis-ii.org/extensions
 
 General model inputs:
 * BatchFile.bat to run the model

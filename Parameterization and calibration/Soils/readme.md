@@ -107,5 +107,9 @@ cell in the ecoregion off.
 
 Sources: 
 Parton, W. 2013. CENTURY Soil Organic Matter Model Environment. Technical Documentation. Agroecosystem Version 3.0. USDA-ARS, Forest Collins, CO.
+
 West, T.O. 2014. Soil Carbon Estimates in 20-cm Layers to 1-m Depth for the Conterminous US, 1970-1993. Data set. Available on-line [http://daac.ornl.gov] from Oak Ridge National Laboratory Distributed Active Archive Center, Oak Ridge, Tennessee, USA. http://dx.doi.org/10.3334/ORNLDAAC/1238
+
 Soil Survey Staff, Natural Resources Conservation Service, United States Department of Agriculture. Soil Survey Geographic (SSURGO) Database for NC. Available online. Accessed [10/17/2019].
+
+USDA Forest Service. 2015. Forest inventory and analysis database: Database description and user guide for phase 2. U.S. Department of Agriculture, Forest Service, Northeastern Research Station, Forest Inventory and Analysis Unit, Newtown Square, PA. 758 p.

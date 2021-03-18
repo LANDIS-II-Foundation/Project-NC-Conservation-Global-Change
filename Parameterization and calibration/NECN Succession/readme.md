@@ -3,7 +3,7 @@
 #### Species parameterization
 Species values including C:N ratios and lignin parameters were derived from existing LANDIS-II papers and supplemented with values from the TRY database (Adler et al. 2014, 
 Burns and Honkala 1990, De Jager et al. 2017, Green 2009, He et al. 2011, He et al. 2012, Iversen et al. 2017, Kattge et al. 2009, Kattge et al. 2020, Martin et al. 2015, 
-Scheller et al. 2011a, White et al. 2000, Wirth et al. 2009, Wright et al. 2004, Wright et al. 2006). Try data was queried by species and by trait and in the event of multiple 
+Scheller et al. 2011, White et al. 2000, Wirth et al. 2009, Wright et al. 2004, Wright et al. 2006). Try data was queried by species and by trait and in the event of multiple 
 returns, values were averaged. GGDmin, GDDmax, frost, leaf longevity, and max drought, were taken from the original linkages manual which can be found at 
 https://daac.ornl.gov/daacdata/model_archive/LINKAGES/comp/ORNL_TM-9519.pdf and existing LANDIS-II papers. Species that could not be found using the above approches were adapted 
 from a qualitative assessment of range in comparison to known values for other species. Data sources can be found in this subfolder in the NECN data sources.xlsx shreadsheet.
@@ -81,6 +81,8 @@ Kattge J, Knorr W, Raddatz T, and Wirth C. 2009. Quantifying photosynthetic capa
 Kattge J, Bönisch G, Díaz S, Lavorel S, Prentice IC, Leadley P, et al. 2020. TRY plant trait database – enhanced coverage and open access. Global Change Biology 26:119-188. https://doi.org/10.1111/gcb.14904
 
 Martin KL, Hurteau MD, Hungate BA, Koch GW, North MP. 2014. Carbon Tradeoffs of Restoration and Provision of Endangered Species Habitat in a Fire-Maintained Forest. Ecosystems 18:76–88.
+
+Scheller RM, Hua D, Bolstad P V., Birdsey RA, Mladenoff DJ. 2011. The effects of forest harvest intensity in combination with wind disturbance on carbon dynamics in Lake States Mesic Forests. Ecological Modelling 222:144–153. 
 
 White MA, Thornton PE, S. Running W, Nemani RR. 2000. Parameterization and sensitivity analysis of the BIOME-BGC terrestrial ecosystem model: Net primary production controls. Earth Interactions 4:1-85.
 

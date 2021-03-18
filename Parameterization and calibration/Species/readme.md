@@ -15,3 +15,6 @@ Liquidamber styraciflua	(sweetgum), Acer rubrum	(red maple), Liriodendron tulipi
 Species listed here: FIA top 20 species.xlsx
 To find input values for each of these species in the species input file, I consulted the literature, past LANDIS-II projects, FEIS, and the silvics manual along with 
 a few miscellaneous sources. For species txt sources, see TM May10.xlsx.
+
+
+USDA Forest Service. 2015. Forest inventory and analysis database: Database description and user guide for phase 2. U.S. Department of Agriculture, Forest Service, Northeastern Research Station, Forest Inventory and Analysis Unit, Newtown Square, PA. 758 p.

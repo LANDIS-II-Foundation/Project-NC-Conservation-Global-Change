@@ -64,3 +64,11 @@ Management prescription table
 
 <img src="./Mgmt prescriptions.PNG" width="90%" />
 
+Citations:
+
+Gustafson EJ, Shifley SR, Mladenoff DJ, Nimerfro KK, He HS. 2000. Spatial simulation of forest succession and timber harvesting using LANDIS. Canadian Journal of Forest Research 
+30:32-43.
+
+North Carolina Department of Environmental Quality. MajorHydro dataset. https://data-ncdenr.opendata.arcgis.com/datasets/2a5324f732bb44d9a1ca29f1c17370ee_0
+
+North Carolina Department of Transportation. NC Route Characteristics dataset. https://connect.ncdot.gov/resources/gis/Pages/GIS-Data-Layers.aspx

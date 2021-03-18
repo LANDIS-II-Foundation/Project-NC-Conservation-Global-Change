@@ -69,3 +69,5 @@ Forest Service, Rocky Mountain Research Station. https://doi.org/10.2737/RDS-201
 Carmean, W. H., Hahn, J. T., & Jacobs, R. D. (1989). Site index curves for forest tree species in the eastern United States. General Technical Report NC-128. St. Paul, MN: US 
 Dept. of Agriculture, Forest Service, North Central Forest Experiment Station, 128.
 
+USDA Forest Service. 2015. Forest inventory and analysis database: Database description and user guide for phase 2. U.S. Department of Agriculture, Forest Service, Northeastern Research Station, Forest Inventory and Analysis Unit, Newtown Square, PA. 758 p.
+

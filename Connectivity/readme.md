@@ -47,24 +47,21 @@ apparent decline in connectivity over time even after land is restored and habit
 network expands geographically across the landscape and the number of habitat patches remains fairly static as individual patches began to coalesce as habitat is added. (See
 habitat clustering approach explanation.docx for more detail).
 
-To resolve mega-patches, we created a comprehensive raster stack of habitat pixels for each conservation strategy, from every time step and every model replicate. To increase 
-graph modularity based on habitat asynchrony, we then grouped habitat pixels by quintiles of occurrence. For each individual time step and replicate, we grouped contiguous 
-habitat pixels that co-occurred in at least 80% of rasters in the comprehensive raster stack, in 60-79% of rasters, between 40-59%, between 20-39%, and in at least one raster 
-using an eight neighbor approach for each species type to accommodate changes to connectivity across time and space. Doing so allowed us to track habitat network changes 
-throughout model runs and to treat habitat added over time as discrete habitat patches, which more realistically reflects how an animal would perceive spatiotemporal habitat 
-fluctuations (Wimberly 2006). Species colonization of new, or newly suitable, habitat patches does not happen instantaneously and modularizing our habitat network enabled a 
-better representation of intra- and inter-patch movement dynamics (Hanski 1999). Patches of two or more hectares were identified as habitat nodes. Nodes were weighted by area. 
-Links were restricted to pairs of nodes with a pair-wise Euclidean distance that fell below each species group’s maximum dispersal distance. The probability of direct movement 
-between patches was obtained using a negative exponential function of inter-patch least cost path value. 
+To increase graph modularity based on habitat asynchrony, we then grouped habitat pixels we separately grouped contiguous habitat that co-occurred in both time steps t and t-1 
+and those that only occurred in time step t for each time step and replicate using an eight-neighbor approach for each species guild to accommodate changes to connectivity
+across time and space (see Supplemental Material). Doing so allowed us to treat habitat added over time as discrete habitat patches, which more realistically reflects how an 
+animal would perceive spatiotemporal habitat fluctuations and better represented intra- and inter-patch movement dynamics (Hanski 1999; Wimberly 2006). Links were restricted to 
+pairs of nodes with a pair-wise Euclidean distance that fell within each species group’s maximum dispersal distance. The probability of movement between patches decayed 
+exponentially as inter-patch least cost path value increased. Nodes were weighted by area. 
 
 We assessed landscape connectivity by comparing the relative change of graph theoretic metrics over time. We compared metrics of structural connectivity including the number of 
-nodes, number of links, average node size, the average least cost path, nearest neighbor Euclidean distance, graph density, and transitivity along with three functional graph 
-theoretical metrics computed in Conefor: probability of connectivity (PC), equivalent connected area index (ECA), and ECA:Area (Table 2). Average node size and average least 
-cost path distance were identified by finding the mean habitat patch size and the mean least cost path value, respectively, across replicates for each conservation strategy/time 
-step combination. Nearest neighbor Euclidean distance was calculated using the spatstat package (v1.63-3) to find the distance from each habitat patch centroid to its nearest 
-neighbor, then averaged for each conservation strategy/time step. Graph density and transitivity were both calculated in igraph. Graph density describes linkage density, the 
-ratio of actual linkages on the graph to all possible linkages that could have occurred in the graph network. Transitivity describes the overall degree of clustering in the 
-graph on a scale of 0 to 1 (no clustering to a perfectly closed graph). 
+nodes, number of links, average node size, the average least cost path, and nearest neighbor Euclidean distance, graph density, along with four graph 
+theoretical metrics computed in Conefor: equivalent connected area index (ECA), and three ECA subcomponents: (i) intra-patch connectivity, the connectivity contributed solely by 
+the area within habitat nodes (ECAintra); (ii) the connectivity contributed by connections between neighboring nodes (ECAdirect); and (iii) connectivity contributions from 
+intermediate stepping-stones that enabled longer distance dispersal (ECAstep) . Average node size and average least cost path distance were identified by finding the mean 
+habitat patch size and the mean least cost path value, respectively, across replicates for each conservation strategy/time step combination. Nearest neighbor Euclidean distance 
+was calculated using the spatstat package (v1.63-3) to find the distance from each habitat patch centroid to its nearest neighbor, then averaged for each conservation 
+strategy/time step.
 
 ECA measures the size of a single patch of habitat, or node, that would provide the same value of the probability of connectivity as the observed habitat network (Saura et al. 
 2011). Even on a landscape with zero probability of movement between habitat patches, ECA will be never be less than the size of the largest habitat patch. The area units 
@@ -75,7 +72,7 @@ these two metrics provide both an assessment of the changes in habitat connectiv
 connectivity may be altered by habitat area as a proxy for habitat fragmentation (McIntyre et al. 2018, Bishop-Taylor et al. 2017). Each metric was averaged across replicates 
 for each conservation strategy/species type combination.
 
-Connectivity metrics table:
+Habitat node clustering figure:
 
 <img src="./Connectivity metrics.PNG" width="80%" />
 
@@ -89,6 +86,5 @@ Follow these steps to dissolve polygons into larger habitat patches based on 8-n
 * DISSOLVE data_buffer_dissolve_intersect.shp. The dissolve field is the FID of data_buffer_dissolve.shp and this time you do check create multipart features. Name of the final shapefile (data_def.shp)
 
 
-Minimum habitat threshold of 2 hectares 
 8-neighbor connection of contiguous habitat cells to form nodes
 Least Cost Path with single spp, single strat, single time step resistance distance validation

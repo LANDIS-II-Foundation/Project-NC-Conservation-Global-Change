@@ -74,7 +74,7 @@ for each conservation strategy/species type combination.
 
 Habitat node clustering figure:
 
-<img src="./Connectivity metrics.PNG" width="80%" />
+<img src="./nodes cluster.PNG" width="80%" />
 
 
 To reduce processing time and memory requirements:
